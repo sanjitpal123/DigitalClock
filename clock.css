@@ -1,0 +1,35 @@
+.container{
+    background-color: rgb(35, 48, 66);
+    display: flex;
+    justify-content: center;
+    align-items: CENTER;
+    height: 1000px;
+}
+#clock-box{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    font-size: 30px;
+    background: linear-gradient(to right, #40bef9, #ecde64);
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+#sh{
+    height: 100px;
+    width: 100px;
+    background:linear-gradient(to right, #fc2f1c, #caebf1);
+    position: absolute;
+    margin-right: 320px;
+    margin-bottom: 80px;
+
+}
+#circle{
+    height: 100px;
+    width: 100px;
+    background:linear-gradient(to right, #7e4af7, #ef9765);
+    position: absolute;
+    margin-left: 370px;
+    border-radius: 50%;
+    margin-bottom: -40px;
+}
